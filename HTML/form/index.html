@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário TOP</h1>
+    <form action="#" method="post">
+        <div>
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="nome" placeholder="Digite seu nome" required />
+        </div>
+
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Digite o seu e-mail: " required />
+        </div>
+
+        <div>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite a sua senha: " required />
+        </div>
+
+        <div>
+            <label for="idade">Idade</label>
+            <input type="number" id="idade" name="idade" placeholder="Digite a sua idade: " min="10" max="15" required />
+        </div>
+
+        <div>
+            <label for="genero">Selecione seu gênero</label>
+            <select id="genero" name="genero">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="termos">Aceitar os termos</label>
+            <input type="checkbox" id="termos" name="termos" checked />
+        </div>
+
+        <div>
+            <label for="cor">Sua cor preferida</label>
+            <input type="color" id="cor" name="cor" />
+        </div>
+
+        <div>
+            <label for="anexo">Anexo</label>
+            <input type="file" id="anexo" name="anexo" />
+        </div>
+
+        <div>
+            <label for="comments">Deixe um comentário!</label>
+            <textarea id="comments" name="comments" rows="10" cols="30"></textarea>
+        </div>
+
+        <input type="submit" value="Enviar" />
+    </form>
+</body>
+</html>
